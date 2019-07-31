@@ -1,0 +1,54 @@
+body{
+    background-color: #1C1C1C;
+}
+.Total{
+    font-family:'Times New Roman', Times, serif;
+    color: #FFD700;
+}
+.lBusca{
+    width: 90px;
+    height: 80px;
+}
+input.BInput:focus{box-shadow: 1px 1px 5px 3px #FFFF00;}
+.BInput{
+    height: 35px;
+    background: #1C1C1C;
+    margin-right: 20px;
+    border: 0.5px solid #FFFAFA;
+    border-radius:3px;
+    color: #FFD700;
+    font-size: 20px;
+}
+a{
+    text-decoration: none !important;
+    color: #FFFAFA;
+}
+.Resultados{
+    font-family:'Times New Roman', Times, serif;
+    padding: 20px;
+    background-color: #363636;
+    margin: 20px 40px 20px 40px;
+    border-radius: 6px;
+    text-align: center;
+    color: #FFFAFA;
+    width: 240px;
+    height: 110px;
+    float: left;
+    display: block;
+}
+.Alt{
+    font-size: 15px;
+}
+.Alet{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #FFFAFA;
+    padding: 20%;
+    text-align: center;
+}
+a.Rest:hover, a.Rest:active{color: #DAA520}
+.Rest{
+    font-size: 20px;
+}
+div.Resultados:hover
+/* div.Resultados:active { font-size: 130%; border: 2px solid #FFFF00;} */

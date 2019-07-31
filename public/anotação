@@ -1,0 +1,46 @@
+{/* ChamarApi(e){
+    e.preventDefault();
+
+    fetch(`https://swapi.co/api/people/?search=${Busca}`, {
+        method: 'GET'
+        })
+        .then(res => res.json())
+        .then(response => {
+            console.log(response)
+    })
+} */}
+.results.map(e => e.name)
+
+ <nav className="navbar navbar-expand-lg justify-content-between navb">
+                        <Link to="/">
+                            <img src={img} alt="" name="" className={styles.lBusca}/>
+                        </Link>
+                        <div className="Area">
+                            <form className="form-inline">
+                                <input type="text" className={styles.BInput} placeholder="Buscar..." size="40"
+                                        value={this.state.Pesquisa} onChange={e => this.setState({ Pesquisa: e.target.value })} />
+                                <button className="btn btn-warning" onClick={($event) => this.Atualiza($event)}>Buscar</button>                        
+                            </form>
+                        </div>
+                    </nav>
+
+
+
+componentDidMount() {
+    fetch("https://api.example.com/items")
+        .then(res => res.json())
+        .then((result) => {
+                this.setState({
+                isLoaded: true,
+                items: result.items
+          });
+        },
+       
+        (error) => {
+          this.setState({
+            isLoaded: true,
+            error
+          });
+        }
+      )
+  }
