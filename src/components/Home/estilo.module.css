@@ -1,35 +1,36 @@
 /* A div de fundo */
-.CampoTotal{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 204.5px;
-    background-image: url('../../img/fundo.jpg');
-    background-repeat: no-repeat;
-    background-size: 100vw 100vh;
-    font-family:'Times New Roman', Times, serif;
-
+.CampoTotal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 204.5px;
+  background-image: url("../../img/fundo.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  font-family: "Times New Roman", Times, serif;
 }
 /* Input de busca */
-input.campoDePesquisa:focus{box-shadow: 1px 1px 5px 3px #FFFF00;}
-.campoDePesquisa{
-    height: 40px;
-    border: 1px solid #FFFAFA;
-    margin-left: 40px;
-    background: #1C1C1C;
-    border-radius:6px;
-    color: #FFFF00;
-    font-size: 20px;
+input.campoDePesquisa:focus {
+  box-shadow: 1px 1px 5px 3px #ffff00;
+}
+.campoDePesquisa {
+  height: 40px;
+  border: 1px solid #fffafa;
+  margin-left: 40px;
+  background: #1c1c1c;
+  border-radius: 6px;
+  color: #ffff00;
+  font-size: 20px;
 }
 /* A imagem */
-.LogoSw{
-    margin: 0 0 55px 170px;
-    width: 300px;
+.LogoSw {
+  margin: 0 0 55px 170px;
+  width: 300px;
 }
 /* Botão */
-.DoBotao{
-    display: flex;
-    justify-content: center;
-    margin-top: 25px;
-    margin-left: 40px;
+.DoBotao {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  margin-left: 40px;
 }

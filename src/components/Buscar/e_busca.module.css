@@ -1,54 +1,59 @@
-body{
-    background-color: #1C1C1C;
+body {
+  background-color: #1c1c1c;
 }
-.Total{
-    font-family:'Times New Roman', Times, serif;
-    color: #FFD700;
+.Total {
+  font-family: "Times New Roman", Times, serif;
+  color: #ffd700;
 }
-.lBusca{
-    width: 90px;
-    height: 80px;
+.lBusca {
+  width: 90px;
+  height: 80px;
 }
-input.BInput:focus{box-shadow: 1px 1px 5px 3px #FFFF00;}
-.BInput{
-    height: 35px;
-    background: #1C1C1C;
-    margin-right: 20px;
-    border: 0.5px solid #FFFAFA;
-    border-radius:3px;
-    color: #FFD700;
-    font-size: 20px;
+input.BInput:focus {
+  box-shadow: 1px 1px 5px 3px #ffff00;
 }
-a{
-    text-decoration: none !important;
-    color: #FFFAFA;
+.BInput {
+  height: 35px;
+  background: #1c1c1c;
+  margin-right: 20px;
+  border: 0.5px solid #fffafa;
+  border-radius: 3px;
+  color: #ffd700;
+  font-size: 20px;
 }
-.Resultados{
-    font-family:'Times New Roman', Times, serif;
-    padding: 20px;
-    background-color: #363636;
-    margin: 20px 40px 20px 40px;
-    border-radius: 6px;
-    text-align: center;
-    color: #FFFAFA;
-    width: 240px;
-    height: 110px;
-    float: left;
-    display: block;
+a {
+  text-decoration: none !important;
+  color: #fffafa;
 }
-.Alt{
-    font-size: 15px;
+.Resultados {
+  font-family: "Times New Roman", Times, serif;
+  padding: 20px;
+  background-color: #363636;
+  margin: 20px 40px 20px 40px;
+  border-radius: 6px;
+  text-align: center;
+  color: #fffafa;
+  width: 240px;
+  height: 110px;
+  float: left;
+  display: block;
 }
-.Alet{
-    font-family:'Times New Roman', Times, serif;
-    font-size: 30px;
-    color: #FFFAFA;
-    padding: 20%;
-    text-align: center;
+.Alt {
+  font-size: 15px;
 }
-a.Rest:hover, a.Rest:active{color: #DAA520}
-.Rest{
-    font-size: 20px;
+.Alet {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  color: #fffafa;
+  padding: 20%;
+  text-align: center;
 }
-div.Resultados:hover
+a.Rest:hover,
+a.Rest:active {
+  color: #daa520;
+}
+.Rest {
+  font-size: 20px;
+}
+div.resultados: hover;
 /* div.Resultados:active { font-size: 130%; border: 2px solid #FFFF00;} */

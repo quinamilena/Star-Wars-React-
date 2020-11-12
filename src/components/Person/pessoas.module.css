@@ -1,35 +1,37 @@
-.Cnomes{
-    font-family: Star;
-    color: aliceblue;
-    padding: 10%;
-    text-align: center;
-    font-size: 60px;
+.Cnomes {
+  font-family: Star;
+  color: aliceblue;
+  padding: 10%;
+  text-align: center;
+  font-size: 60px;
 }
-.Simbolos{
-    font-family: Simbolos;
-    color: aliceblue;
-    text-align: center;
-    font-size: 30px;
+.Simbolos {
+  font-family: Simbolos;
+  color: aliceblue;
+  text-align: center;
+  font-size: 30px;
 }
-a.hover.link{color: white}
-.link{
-    text-decoration: none;
-    color: #FFD700;
-    font-size: 40px;
-    padding: 50px;
+a.hover.link {
+  color: white;
 }
-.Aleet{
-    font-family:'Times New Roman', Times, serif;
-    font-size: 30px;
-    color: #FFFAFA;
-    padding: 20%;
-    text-align: center;
+.link {
+  text-decoration: none;
+  color: #ffd700;
+  font-size: 40px;
+  padding: 50px;
 }
-@font-face {
-    font-family: Simbolos;
-    src: url('../../fonts/SfDistantGalaxySymbols-aylE.ttf');
+.Aleet {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  color: #fffafa;
+  padding: 20%;
+  text-align: center;
 }
 @font-face {
-    font-family: Star;
-    src: url('../../fonts/SfDistantGalaxy-0l3d.ttf');
+  font-family: Simbolos;
+  src: url("../../fonts/SfDistantGalaxySymbols-aylE.ttf");
+}
+@font-face {
+  font-family: Star;
+  src: url("../../fonts/SfDistantGalaxy-0l3d.ttf");
 }
