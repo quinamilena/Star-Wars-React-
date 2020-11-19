@@ -10,6 +10,7 @@ class Home extends React.Component {
       Pesquisa: "",
     };
   }
+
   ChamarPag(e) {
     const { Pesquisa } = this.state;
     if (Pesquisa !== "") {
@@ -21,6 +22,7 @@ class Home extends React.Component {
       this.props.history.push(`/`);
     }
   }
+
   render() {
     return (
       <div className={styles.CampoTotal}>
@@ -43,7 +45,7 @@ class Home extends React.Component {
             <div className={styles.DoBotao}>
               <button
                 id="botao"
-                className="btn btn-warning"
+                className={styles.botao}
                 onClick={($event) => this.ChamarPag($event)}
               >
                 Buscar

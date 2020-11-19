@@ -55,5 +55,8 @@ a.Rest:active {
 .Rest {
   font-size: 20px;
 }
-div.resultados: hover;
-/* div.Resultados:active { font-size: 130%; border: 2px solid #FFFF00;} */
+div.resultados:hover,
+div.Resultados:active {
+  font-size: 130%;
+  border: 2px solid #ffff00;
+}

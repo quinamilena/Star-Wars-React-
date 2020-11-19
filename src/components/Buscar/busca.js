@@ -14,12 +14,14 @@ class Busca extends React.Component {
       results: [],
     };
   }
+
   componentDidMount() {
     //Chamar a função ao entrar na pagina;
     this.pesquisar();
   }
+
   pesquisar() {
-    fetch(`https://swapi.co/api/people/?search=${this.state.Pesquisa}`, {
+    fetch(`https://swapi.dev/api/people/?search=${this.state.Pesquisa}`, {
       method: "GET",
     })
       .then((res) => res.json())
@@ -35,6 +37,7 @@ class Busca extends React.Component {
         }
       );
   }
+
   Atualiza(e) {
     // Para buscar de novo na pagina de busca;
     const { Pesquisa } = this.state;
@@ -44,6 +47,7 @@ class Busca extends React.Component {
       this.pesquisar();
     }
   }
+
   render() {
     const { results, error, isLoaded } = this.state;
     if (error) {

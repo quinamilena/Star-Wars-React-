@@ -4,9 +4,9 @@
   justify-content: center;
   align-items: center;
   padding: 204.5px;
-  background-image: url("../../img/fundo.jpg");
-  background-repeat: no-repeat;
-  background-size: 100vw 100vh;
+  /* background-image: url("../../img/fundo.jpg"); */
+  /* background-repeat: no-repeat; */
+  background-position: center;
   font-family: "Times New Roman", Times, serif;
 }
 /* Input de busca */
